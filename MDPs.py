@@ -123,5 +123,5 @@ def get_state_utilities(epsilon, rewards):
     printEnvironment(policy, True)
 
 if __name__ == "__main__":
-    get_state_utilities(0.01, [[-0.1, -0.1, -0.05], [-0.1, -0.1, 1]])
+    get_state_utilities(0.1, [[-0.1, -0.1, -0.05], [-0.1, -0.1, 1]])
     #get_state_utilities(10**(-3), [[0, 0, 0, 1], [0, 0, 0, -1], [0, 0, 0, 0]])
